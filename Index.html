@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ted Bundy - Serial Killer Profile</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Ted Bundy</h1>
+        <nav>
+            <a href="#biography">Biography</a>
+            <a href="#victims">Victims & MO</a>
+            <a href="#consequences">Consequences</a>
+            <a href="#causes">Causes of Behavior</a>
+            <a href="#references">References</a>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Biography Section -->
+        <section id="biography" class="accordion">
+            <h2>Biography</h2>
+            <div class="accordion-content">
+                <p><strong>Birth:</strong> [Click to view birth details]</p>
+                <dialog id="birthDialog">
+                    <p><strong>Birth:</strong> Ted Bundy was born on November 24, 1946, in Burlington, Vermont.</p>
+                    <button onclick="closeDialog('birthDialog')">Close</button>
+                </dialog>
+                
+                <p><strong>Family:</strong> [Details about parents and siblings]</p>
+                <p><strong>Upbringing:</strong> [Click to view upbringing details]</p>
+                <dialog id="upbringingDialog">
+                    <p><strong>Upbringing:</strong> Bundy’s childhood involved several traumatic experiences, including abuse and a troubled relationship with his family.</p>
+                    <button onclick="closeDialog('upbringingDialog')">Close</button>
+                </dialog>
+
+                <p><strong>Early Deviant Behavior:</strong> [Description of early criminal behavior]</p>
+            </div>
+        </section>
+
+        <!-- Victims & Modus Operandi Section -->
+        <section id="victims" class="accordion">
+            <h2>Victims & Modus Operandi</h2>
+            <div class="accordion-content">
+                <p><strong>Victims:</strong> Estimated 30 confirmed victims, mostly young women.</p>
+                <p><strong>Modus Operandi:</strong> [Explanation of victim selection and killing methods]</p>
+                <p><strong>Classification:</strong> Bundy fits as a hedonist/thrill-seeker, showing a desire for control and thrill through his crimes.</p>
+            </div>
+        </section>
+
+        <!-- Consequences Section -->
+        <section id="consequences" class="accordion">
+            <h2>Capture and Consequences</h2>
+            <div class="accordion-content">
+                <p><strong>Arrest:</strong> Bundy was apprehended after a traffic violation led to his identification.</p>
+                <p><strong>Conviction and Sentencing:</strong> He was convicted on multiple counts of murder and received the death penalty.</p>
+                <p><strong>Fate:</strong> Executed by electric chair in 1989.</p>
+            </div>
+        </section>
+
+        <!-- Causes of Behavior Section -->
+        <section id="causes" class="accordion">
+            <h2>Causes of Behavior</h2>
+            <div class="accordion-content">
+                <h3>Psychological Factors</h3>
+                <p>Ted Bundy exhibited signs of personality disorder, including narcissistic and antisocial traits.</p>
+                <h3>Social Factors</h3>
+                <p>Bundy’s relationships and social environment may have influenced his behavior, particularly his lack of attachment and isolation.</p>
+                <h3>Biological Factors</h3>
+                <p>There are theories that genetic or neurological factors may have contributed to Bundy’s behavior.</p>
+            </div>
+        </section>
+
+        <!-- References Section -->
+        <section id="references" class="accordion">
+            <h2>References</h2>
+            <div class="accordion-content">
+                <p>Use APA or MLA format for citing sources here.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Ted Bundy Profile Project</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
