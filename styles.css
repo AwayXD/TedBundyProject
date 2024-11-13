@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #121212;
+    color: #f1f1f1;
+    line-height: 1.6;
+}
+
+header {
+    background: #333;
+    padding: 1rem;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2rem;
+}
+
+nav a {
+    color: #f1f1f1;
+    margin: 0 0.5rem;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #ff6347;
+}
+
+main {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1rem;
+}
+
+.accordion h2 {
+    background: #444;
+    padding: 0.75rem;
+    cursor: pointer;
+    color: #ff6347;
+    border-radius: 5px;
+    margin-top: 1rem;
+}
+
+.accordion-content {
+    display: none;
+    padding: 1rem;
+    background: #222;
+    border-radius: 5px;
+    margin-top: 0.5rem;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: #333;
+    color: #f1f1f1;
+}
+
+dialog {
+    background: #333;
+    color: #f1f1f1;
+    padding: 1rem;
+    border-radius: 5px;
+    width: 80%;
+    max-width: 500px;
+}
+
+button {
+    background: #ff6347;
+    color: #fff;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #ff4500;
+}
