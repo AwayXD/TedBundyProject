@@ -24,20 +24,20 @@
         <section id="biography" class="accordion">
             <h2>Biography</h2>
             <div class="accordion-content">
-                <p><strong>Birth:</strong> [Click to view birth details]</p>
+                <p><strong>Birth:</strong> <a href="#birthDialog" onclick="document.getElementById('birthDialog').showModal()">Click to view birth details</a></p>
                 <dialog id="birthDialog">
                     <p><strong>Birth:</strong> Ted Bundy was born on November 24, 1946, in Burlington, Vermont.</p>
-                    <button onclick="closeDialog('birthDialog')">Close</button>
+                    <button onclick="document.getElementById('birthDialog').close()">Close</button>
                 </dialog>
                 
-                <p><strong>Family:</strong> [Details about parents and siblings]</p>
-                <p><strong>Upbringing:</strong> [Click to view upbringing details]</p>
+                <p><strong>Family:</strong> His mother, Eleanor Louise Cowell, gave birth to him out of wedlock, and he initially believed his grandparents were his parents. He had complicated family dynamics and experienced early confusion regarding his parentage.</p>
+                <p><strong>Upbringing:</strong> <a href="#upbringingDialog" onclick="document.getElementById('upbringingDialog').showModal()">Click to view upbringing details</a></p>
                 <dialog id="upbringingDialog">
                     <p><strong>Upbringing:</strong> Bundy’s childhood involved several traumatic experiences, including abuse and a troubled relationship with his family.</p>
-                    <button onclick="closeDialog('upbringingDialog')">Close</button>
+                    <button onclick="document.getElementById('upbringingDialog').close()">Close</button>
                 </dialog>
 
-                <p><strong>Early Deviant Behavior:</strong> [Description of early criminal behavior]</p>
+                <p><strong>Early Deviant Behavior:</strong> Bundy began displaying criminal behaviors, such as petty theft and voyeurism, during his teenage years, which later escalated to more serious offenses.</p>
             </div>
         </section>
 
@@ -46,7 +46,7 @@
             <h2>Victims & Modus Operandi</h2>
             <div class="accordion-content">
                 <p><strong>Victims:</strong> Estimated 30 confirmed victims, mostly young women.</p>
-                <p><strong>Modus Operandi:</strong> [Explanation of victim selection and killing methods]</p>
+                <p><strong>Modus Operandi:</strong> Bundy often posed as an injured person to gain sympathy, luring victims with a fake cast or sling before attacking them. He typically assaulted his victims at night and often targeted college campuses.</p>
                 <p><strong>Classification:</strong> Bundy fits as a hedonist/thrill-seeker, showing a desire for control and thrill through his crimes.</p>
             </div>
         </section>
