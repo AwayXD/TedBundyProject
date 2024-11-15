@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        header nav a {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        header nav a:hover {
+            text-decoration: underline;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 20px; /* Adjusted for better spacing */
+            padding: 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .gallery img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s ease-in-out;
+            z-index: 1; /* Ensures it stays above others */
+            overflow: hidden; /* Prevents scaling spillover */
+            position: relative; /* Confines scaling to grid boundaries */
+        }
+        .gallery img:hover {
+            transform: scale(1.1); /* Slightly larger scaling */
+        }
+        footer {
+            text-align: center;
+            padding: 1rem 0;
+            background-color: #333;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+<header>
+    <h1>Gallery</h1>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="index.html#biography">Biography</a>
+        <a href="index.html#victims">Victims & MO</a>
+        <a href="index.html#consequences">Consequences</a>
+        <a href="index.html#causes">Causes of Behavior</a>
+        <a href="index.html#references">References</a>
+        <a href="gallery.html">Gallery</a>
+    </nav>
+</header>
+
+<main>
+    <section class="gallery">
+        <!-- Looping through 20 images -->
+        <img src="images/gallery/71OpBgoLeNL._AC_UF894,1000_QL80_.jpg" alt="Gallery Image 1">
+        <img src="images/gallery/download.jpg" alt="Gallery Image 2">
+        <img src="images/gallery/download (1).jpg" alt="Gallery Image 3">
+        <img src="images/gallery/images.jpg" alt="Gallery Image 4">
+        <img src="images/gallery/images (1).jpg" alt="Gallery Image 5">
+        <img src="images/gallery/images (2).jpg" alt="Gallery Image 6">
+        <img src="images/gallery/images (3).jpg" alt="Gallery Image 7">
+        <img src="images/gallery/images (4).jpg" alt="Gallery Image 8">
+        <img src="images/gallery/images (5).jpg" alt="Gallery Image 9">
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2024 Ted Bundy Project</p>
+</footer>
+</body>
+</html>
